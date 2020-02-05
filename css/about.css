@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.txt1 {
+    width: 100%;
+    position: absolute;
+    color: white;
+    bottom: 0;
+}
+
+.txt2 {
+    display: none;
+}
+
+.texto {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vw
+}
+
+.texto h3 {
+    margin: 0
+}
+
+.descripcion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+    margin: 0;
+    font-size: 4vw
+}
+
+.dedicas {
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 4vw
+}
+
+span p {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dedicas p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 576px) {
+    .texto {
+        font-size: 4vw
+    }
+    .descripcion {
+        font-size: 3vw
+    }
+    .dedicas {
+        font-size: 3vw
+    }
+}
+@media (min-width: 768px) {
+    .txt1 {
+        display: none;
+    }
+    .txt2 {
+        display: block;
+    }
+}
+@media (min-width: 992px) {
+    .texto {
+        font-size: 3vw
+    }
+    .descripcion {
+        font-size: 2vw
+    }
+    .dedicas {
+        font-size: 2vw
+    }
+}
+@media (min-width: 1200px) {
+    .texto {
+        font-size: 2vw
+    }
+    .descripcion {
+        font-size: 1.5vw
+    }
+    .dedicas {
+        font-size: 1.5vw
+    }
+}
