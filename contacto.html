@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <title>Contactanos</title>
+    </head>
+    <body>
+        <div class="container bg-light">
+            <!------------------------------- Menu de navegacion ------------------------------->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand pt-3" href="#">
+                    <img
+                        src="img/bictia.png"
+                        class="d-inline-block align-top"
+                        alt=""
+                    />
+                    Bitfilms
+                </a>
+                <div
+                    class="collapse navbar-collapse ml-5"
+                    id="navbarNavAltMarkup"
+                >
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html"
+                            >Inicio</a
+                        >
+                        <a class="nav-item nav-link" href="cartelera.html"
+                            >Cartelera</a
+                        >
+                        <a class="nav-item nav-link" href="estrenos.html"
+                            >Estrenos</a
+                        >
+                        <a class="nav-item nav-link active" href="contacto.html"
+                            >Contactanos
+                            <span class="sr-only">(current)</span></a
+                        >
+                    </div>
+                </div>
+                <div class="formulario d-flex align-items-center">
+                    <img src="img/usuario.png" alt="" />
+                    <p class="nombreUsuario pt-3">Usuario</p>
+                    <form action="login.html">
+                        <button type="submit" class="btn btn-danger ml-3">
+                            Log in
+                        </button>
+                    </form>
+                </div>
+            </nav>
+            <!---------------------------------- Contacto ---------------------------------->
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-md-8 col-lg-6 pb-5">
+                    <form action="mail.php" method="post">
+                        <div class="card shadow-sm rounded">
+                            <div class="card-header p-0">
+                                <div
+                                    class="bg-info text-white text-center py-2"
+                                >
+                                    <h3>
+                                        <i class="fa fa-envelope"></i>
+                                        Contactanos
+                                    </h3>
+                                    <p class="m-0">Con gusto te ayudaremos</p>
+                                </div>
+                            </div>
+                            <div class="card-body p-3">
+                                <!--Body-->
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i
+                                                    class="fa fa-user text-info"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="nombre"
+                                            name="nombre"
+                                            placeholder="Nombre y Apellido"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i
+                                                    class="fa fa-envelope text-info"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="nombre"
+                                            name="email"
+                                            placeholder="ejemplo@gmail.com"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i
+                                                    class="fa fa-comment text-info"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Envianos tu Mensaje"
+                                            required
+                                        ></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <input
+                                        type="submit"
+                                        value="Enviar"
+                                        class="btn btn-info btn-block rounded-0 py-2"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!------------------------------- Footer --------------------------------->
+        <footer class="bg-dark">
+            <div
+                class="container pt-3"
+                style="display: flex; justify-content: space-between;"
+            >
+                <div>
+                    <h4 class="text-white">Programación</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="">Cartelera</a></li>
+                        <li><a class="text-white" href="">Próximamente</a></li>
+                        <li><a class="text-white" href="">Preventas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white">Sobre CinemaBit</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="">Nosotros</a></li>
+                        <li>
+                            <a class="text-white" href="">Salas y Formatos</a>
+                        </li>
+                        <li>
+                            <a class="text-white" href=""
+                                >Términos y condiciones</a
+                            >
+                        </li>
+                        <li>
+                            <a class="text-white" href=""
+                                >Encuesta de servicio</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white">Marketing Empresarial</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-white" href=""
+                                >Ventas Corporativas</a
+                            >
+                        </li>
+                        <li><a class="text-white" href="">Publicidad</a></li>
+                        <li><a class="text-white" href="">Eventos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="js/contacto.js"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

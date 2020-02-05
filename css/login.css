@@ -1,0 +1,13 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    margin-top: 40%;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
